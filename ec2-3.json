@@ -1,0 +1,4 @@
+{
+  "Resources": {
+    "MyEc2": {
+      "Type": "AWS": : EC2: insatnce", 		"propertices" :{ 			"ImageId" : "ami-c58c1dd3", 			"InstanceType": "t2.micro" 		} 		} 	} } }
