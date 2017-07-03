@@ -1,0 +1,13 @@
+{
+   "AWSTemplateFormatVersion" : "2010-09-09",
+   "Description" : "Ec2 block device mapping",
+   "Resources" : {
+      "MyEC2Instance" : {
+         "Type" : "AWS::EC2::Instance",
+         "Properties" : {
+            "ImageId" : "ami-c58c1dd3",
+            "KeyName" : "testkey"
+         }
+      }
+   }
+}        
